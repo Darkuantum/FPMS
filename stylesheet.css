@@ -1,0 +1,58 @@
+body {
+	margin: 0;
+	padding: 0;
+	text-align: center;
+	background-color: rgb(58, 58, 58);
+	color: white;
+	font-size: 20px;
+	font-family: Times New Roman Georgia;
+}
+
+table, th, td{
+	border: 1px solid gray;
+	border-collapse: collapse;
+	padding: 10px;
+	margin: 5px;
+	background-color: black;
+}
+
+p {
+	text-align: left;
+	padding-bottom: 20px;
+	border-bottom: 2px solid #333c64;
+}
+
+a button {
+	background-color: lightgray;
+	border: 3px solid gray;
+	border-radius: 5px;
+	padding: 10px;
+	margin: 10px;
+}
+a:hover button {
+	border: 3px solid black;
+}
+
+a:active button {
+	background-color: gray;
+}
+
+img {
+	border-radius: 10px;
+	border: 5px solid black;
+	width: 80%;
+	height: 600px;
+	margin: 20px;
+}
+
+
+.Entry {
+	text-align: center;
+	display: inline-block;
+	background-color: gray;
+	padding: 20px;
+	margin: 10px;
+	width: 1000px;
+	border-radius: 20px;
+	border: 5px Solid #333c64;
+}
